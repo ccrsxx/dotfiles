@@ -33,7 +33,7 @@ Setting up a new machine involves cloning the repository, creating a local secre
 
    ```bash
    # Clone the repository
-   git clone https://github.com/your-username/dotfiles.git ~/dotfiles
+   git clone https://github.com/ccrsxx/dotfiles.git ~/dotfiles
 
    # Navigate into the directory
    cd ~/dotfiles
@@ -50,7 +50,7 @@ Setting up a new machine involves cloning the repository, creating a local secre
 
    ```powershell
    # Clone the repository
-   git clone https://github.com/your-username/dotfiles.git $HOME\dotfiles
+   git clone https://github.com/ccrsxx/dotfiles.git ~/dotfiles
 
    # Navigate into the directory
    cd $HOME\dotfiles
