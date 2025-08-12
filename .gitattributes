@@ -1,2 +1,2 @@
-# Ignore all files in the shared directory
+# Ignore all files in the shared config directory
 shared/config/* linguist-vendored
