@@ -17,8 +17,9 @@ if (-not (Test-Path $ProfileDir)) {
     New-Item -ItemType Directory -Path $ProfileDir -Force 
 }
 
+# Remove existing PowerShell profile if it exists, then copy the shared PowerShell profile
 Remove-Item $ProfilePath -ErrorAction SilentlyContinue
-New-Item -ItemType SymbolicLink -Path $ProfilePath -Target "$DotfilesDir\os\windows\powershell-profile.ps1"
+Copy-Item -Path "$DotfilesDir\os\windows\powershell-profile.ps1" -Destination $ProfilePath -Force
 
 # --- Scoop Package Management ---
 Write-Host "Setting up Scoop..."
