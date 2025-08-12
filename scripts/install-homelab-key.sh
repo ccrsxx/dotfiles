@@ -11,7 +11,7 @@ SSH_DIR="$HOME/.ssh"
 AUTH_KEYS_FILE="$SSH_DIR/authorized_keys"
 
 # Construct the URL to the raw public key file
-KEY_URL="https://raw.githubusercontent.com/ccrsxx/dotfiles/main/shared/ssh/public-keys/homelab-key.pub"
+KEY_URL="https://raw.githubusercontent.com/ccrsxx/dotfiles/main/shared/ssh/public-keys/homelab-general.pub"
 
 echo "Setting up SSH key for the current user ($USER)..."
 
