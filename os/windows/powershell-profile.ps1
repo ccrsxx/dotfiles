@@ -1,5 +1,5 @@
 # Oh My Posh
-oh-my-posh init pwsh --config "~/dotfiles/os/windows/terminal-theme.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/terminal-theme.omp.json" | Invoke-Expression
 
 # Terminal-Icons
 Import-Module Terminal-Icons
@@ -24,7 +24,6 @@ Set-Alias cf cloudflared
 Set-Alias file explorer
 
 # Utilities
-
 function reload {
     Add-Type -AssemblyName System.Windows.Forms
     [System.Windows.Forms.SendKeys]::SendWait(". $")

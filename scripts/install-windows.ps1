@@ -1,7 +1,7 @@
 # Get the directory of the script
 $DotfilesDir = Split-Path -Path $PSScriptRoot -Parent
 
-Write-Host "Symlinking shared dotfiles..."
+Write-Host "Setting up shared dotfiles..."
 
 # Remove existing file if it exists, then copy the shared .gitconfig
 Remove-Item "$HOME\.gitconfig" -ErrorAction SilentlyContinue
@@ -40,6 +40,19 @@ $ScoopApps = "$DotfilesDir\os\windows\scoop-apps.json"
 scoop update
 
 scoop import $ScoopApps
+
+# --- Oh My Posh Setup ---
+Write-Host "Setting up Oh My Posh..."
+
+# Ensure Oh My Posh is installed
+if (-not (Get-Command oh-my-posh -ErrorAction SilentlyContinue)) {
+    Write-Host "Oh My Posh not found. Installing..."
+    scoop install oh-my-posh
+} else {
+    Write-Host "Oh My Posh is already installed."
+}
+
+Copy-Item -Path "$DotfilesDir\os\windows\terminal-theme.omp.json" -Destination "$env:POSH_THEMES_PATH/terminal-theme.omp.json" -Force
 
 # --- SSH Setup ---
 $SshDir = "$HOME\.ssh"
