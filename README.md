@@ -40,7 +40,7 @@ Setting up a new machine involves cloning the repository, creating a local secre
 
    # Create and populate your secrets file as described above
    # cp .env.example .env.local
-   # nano .env.local
+   # vim .env.local
 
    # Run the installation script
    ./scripts/install-macos.sh
@@ -57,7 +57,7 @@ Setting up a new machine involves cloning the repository, creating a local secre
 
    # Create and populate your secrets file as described above
    # copy .env.example .env.local
-   # notepad .env.local
+   # vim .env.local
 
    # Allow the script to run for the current session
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
@@ -75,8 +75,6 @@ Setting up a new machine involves cloning the repository, creating a local secre
 
 ## Directory Structure
 
-- **`.env.example`**: An example template for the private `.env.local` file.
-- **`.gitignore`**: Critically important file that prevents secrets and private keys from being committed.
 - **`os/`**: Contains all OS-specific configurations, separated by platform.
-- **`scripts/`**: Holds all automation and setup scripts.
 - **`shared/`**: Contains configurations that are shared across all operating systems, like `.gitconfig` and SSH templates.
+- **`scripts/`**: Holds all automation and setup scripts.
