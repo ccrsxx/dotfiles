@@ -22,3 +22,7 @@ id_*
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore Cache and log files
+cache
+watch_later
