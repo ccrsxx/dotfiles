@@ -6,7 +6,7 @@ safecrlf = false
 [user]
 email = ami@ccrsxx.com
 name = Ami
-signingkey = 51913AAB7C398760
+signingkey = 0E0EE861072ECB2C
 [commit]
 gpgsign = true
 [filter "lfs"]
