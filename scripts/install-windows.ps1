@@ -54,6 +54,24 @@ if (-not (Get-Command oh-my-posh -ErrorAction SilentlyContinue)) {
 
 Copy-Item -Path "$DotfilesDir\os\windows\terminal-theme.omp.json" -Destination "$env:POSH_THEMES_PATH/terminal-theme.omp.json" -Force
 
+# --- MPV Setup ---
+Write-Host "Setting up MPV..."
+
+# Ensure MPV is installed
+if (-not (Get-Command mpv -ErrorAction SilentlyContinue)) {
+    Write-Host "MPV not found. Installing..."
+    scoop install mpv
+} else {
+    Write-Host "MPV is already installed."
+}
+
+$MPVConfigDir = "$HOME\scoop\persist\mpv\portable_config"
+
+# Copy the entire MPV configuration directory
+Copy-Item -Path "$DotfilesDir\shared\config\mpv\*" -Destination $MPVConfigDir -Recurse -Force
+
+Write-Host "MPV config copied successfully."
+
 # --- SSH Setup ---
 $SshDir = "$HOME\.ssh"
 
