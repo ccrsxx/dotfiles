@@ -5,13 +5,11 @@ These are my personal configuration files for macOS and Windows. This repository
 ## Features
 
 - **Cross-Platform:** Manages configurations for both macOS and Windows.
-- **Automated Setup:** Uses simple installation scripts to symlink configs and install software.
+- **Automated Setup:** Uses simple installation scripts to sync configs and install software.
 - **Package Management:** Installs applications and tools via [Homebrew](https://brew.sh/) on macOS and [Scoop](https://scoop.sh/) on Windows.
 - **Personalized Git:** Includes a global `.gitconfig` with aliases, a default branch name, and automated commit signing.
 - **Secure SSH Config:** Uses a template system with a private `.env.local` file to manage sensitive host information securely.
 - **Custom Terminal:** Includes settings and themes for Windows Terminal and [Oh My Posh](https://ohmyposh.dev/).
-
----
 
 ## Getting Started
 
