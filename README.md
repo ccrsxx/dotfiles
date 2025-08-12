@@ -75,6 +75,8 @@ Setting up a new machine involves cloning the repository, creating a local secre
 
 ## Directory Structure
 
+The directory structure of this repository is organized to separate configurations by operating system and purpose:
+
 - **`os/`**: Contains all OS-specific configurations, separated by platform.
 - **`shared/`**: Contains configurations that are shared across all operating systems, like `.gitconfig` and SSH templates.
 - **`scripts/`**: Holds all automation and setup scripts.
