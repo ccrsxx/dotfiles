@@ -1,0 +1,28 @@
+[core]
+excludesfile = ~/.gitignore_global
+autocrlf = input
+longpaths = true
+safecrlf = false
+[user]
+email = ami@ccrsxx.com
+name = Ami
+signingkey = 51913AAB7C398760
+[commit]
+gpgsign = true
+[filter "lfs"]
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+[alias]
+ac = !git add -A && git commit -m
+acp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+acpb = "!f() { git add -A && git commit -m \"$@\" && git push && npm run deploy; }; f"
+racpf = "!f() { git reset head~ && git add -A && git commit -m \"$@\" && git push -f; }; f"
+acpf = "!f() { git add -A && git commit -m \"$@\" && git push -f; }; f"
+[init]
+defaultBranch = main
+[color]
+ui = auto
+[push]
+default = current

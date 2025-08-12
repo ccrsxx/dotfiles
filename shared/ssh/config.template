@@ -1,0 +1,59 @@
+# Main VPS
+Host           main
+HostName       {{VPS_MAIN_HOSTNAME}}
+IdentityFile   ~/.ssh/oracle.key
+User           ubuntu
+
+# DNS VPS
+Host           dns
+HostName       {{VPS_DNS_HOSTNAME}}
+IdentityFile   ~/.ssh/oracle.key
+User           ubuntu
+
+# Proxy VPS
+Host           proxy
+HostName       {{VPS_PROXY_HOSTNAME}}
+IdentityFile   ~/.ssh/oracle.key
+User           ubuntu
+
+# Router
+Host           router
+HostName       {{HOMELAB_ROUTER_HOSTNAME}}
+IdentityFile   ~/.ssh/router.key
+User           ccrsxx
+
+# Homelab
+Host           homelab
+HostName       {{HOMELAB_MAIN_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab.key
+User           root
+
+# Docker LXC
+Host           docker
+HostName       {{HOMELAB_DOCKER_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab.key
+User           ccrsxx
+
+# Samba LXC
+Host           samba
+HostName       {{HOMELAB_SAMBA_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab.key
+User           ccrsxx
+
+# Jellyfin LXC
+Host           jellyfin
+HostName       {{HOMELAB_JELLYFIN_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab.key
+User           ccrsxx
+
+# Automation LXC
+Host           automation
+HostName       {{HOMELAB_AUTOMATION_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab.key
+User           ccrsxx
+
+# Experiment LXC
+Host           experiment
+HostName       {{HOMELAB_EXPERIMENT_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab.key
+User           ccrsxx

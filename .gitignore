@@ -1,0 +1,24 @@
+# Ignore all private key files by default
+# This ignores any file ending in 'key' that does NOT end in '.pub'
+*key
+!*key.pub
+*.pem
+*.ppk
+
+# Ignore default SSH key files, but NOT their .pub counterparts
+id_*
+!id_*.pub
+
+# Ignore common secret files
+.env
+.env.ci.secrets
+.env.ci.vars
+.env.test.local
+.env.development.local
+.env.production.local
+.env.local
+.env.docker
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

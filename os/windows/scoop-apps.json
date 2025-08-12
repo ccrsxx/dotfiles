@@ -1,0 +1,228 @@
+{
+  "buckets": [
+    {
+      "Name": "main",
+      "Source": "https://github.com/ScoopInstaller/Main",
+      "Updated": "2025-07-28T15:30:38+07:00",
+      "Manifests": 1397
+    },
+    {
+      "Name": "extras",
+      "Source": "https://github.com/ScoopInstaller/Extras",
+      "Updated": "2025-07-28T15:30:43+07:00",
+      "Manifests": 2173
+    }
+  ],
+  "apps": [
+    {
+      "Info": "",
+      "Version": "23.01",
+      "Source": "main",
+      "Name": "7zip",
+      "Updated": "2024-04-20T13:43:47.5098892+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "0.2.69",
+      "Source": "main",
+      "Name": "act",
+      "Updated": "2024-11-24T08:12:00.9108671+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "34.0.4",
+      "Source": "main",
+      "Name": "adb",
+      "Updated": "2023-09-01T16:00:15.3468394+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2025.4.0",
+      "Source": "main",
+      "Name": "cloudflared",
+      "Updated": "2025-04-20T12:11:25.8039014+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "3.14",
+      "Source": "main",
+      "Name": "dark",
+      "Updated": "2024-03-29T14:09:31.3798989+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "6.0",
+      "Source": "main",
+      "Name": "ffmpeg",
+      "Updated": "2023-03-15T13:34:44.6624635+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "0.42.0",
+      "Source": "main",
+      "Name": "fzf",
+      "Updated": "2023-09-01T16:01:21.3056207+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.46.0",
+      "Source": "main",
+      "Name": "gh",
+      "Updated": "2024-03-23T06:54:43.59461+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "1.18.0",
+      "Source": "main",
+      "Name": "hyperfine",
+      "Updated": "2024-11-09T21:57:04.5609423+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "3.1.3",
+      "Source": "main",
+      "Name": "iperf3",
+      "Updated": "2023-08-04T20:11:48.7463148+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "1.7.1",
+      "Source": "main",
+      "Name": "jq",
+      "Updated": "2024-08-11T21:32:58.8214374+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "0.36.0",
+      "Source": "extras",
+      "Name": "mpv",
+      "Updated": "2023-09-01T16:01:47.171958+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "7.1.0",
+      "Source": "main",
+      "Name": "neofetch",
+      "Updated": "2023-02-09T12:42:46.3725806+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.86",
+      "Source": "main",
+      "Name": "nircmd",
+      "Updated": "2024-01-27T21:07:00.5574252+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "7.94",
+      "Source": "main",
+      "Name": "nmap",
+      "Updated": "2023-07-13T14:42:51.205929+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "1.6.7",
+      "Source": "extras",
+      "Name": "obsidian",
+      "Updated": "2024-10-05T21:28:46.9743881+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "19.11.6",
+      "Source": "main",
+      "Name": "oh-my-posh",
+      "Updated": "2024-02-29T13:43:38.3495431+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.18.1",
+      "Source": "extras",
+      "Name": "onefetch",
+      "Updated": "2023-09-01T16:01:53.3033716+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "1.1.0",
+      "Source": "extras",
+      "Name": "posh-git",
+      "Updated": "2023-08-09T15:17:43.3995067+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.5.16",
+      "Source": "extras",
+      "Name": "PSFzF",
+      "Updated": "2023-02-09T23:50:06.4453246+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "3.12.2",
+      "Source": "main",
+      "Name": "python",
+      "Updated": "2024-03-29T14:10:09.1917596+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.7",
+      "Source": "main",
+      "Name": "scrcpy",
+      "Updated": "2024-11-10T19:13:47.1764225+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "1.2.0",
+      "Source": "main",
+      "Name": "speedtest-cli",
+      "Updated": "2023-02-10T00:02:50.3854766+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.36.13",
+      "Source": "main",
+      "Name": "spicetify-cli",
+      "Updated": "2024-06-17T10:32:43.1195026+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "0.11.0",
+      "Source": "extras",
+      "Name": "terminal-icons",
+      "Updated": "2023-09-01T16:01:59.4067525+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "0.5.16",
+      "Source": "main",
+      "Name": "uv",
+      "Updated": "2025-01-09T13:47:15.5786323+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.0.1",
+      "Source": "main",
+      "Name": "volta",
+      "Updated": "2024-10-25T13:44:00.2871093+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.2.22",
+      "Source": "main",
+      "Name": "wgcf",
+      "Updated": "2024-05-07T16:10:37.2810763+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2.5.1",
+      "Source": "main",
+      "Name": "winfetch",
+      "Updated": "2024-06-04T09:48:51.9020366+07:00"
+    },
+    {
+      "Info": "",
+      "Version": "2025.03.31",
+      "Source": "main",
+      "Name": "yt-dlp",
+      "Updated": "2025-04-22T20:41:06.3501933+07:00"
+    }
+  ]
+}
