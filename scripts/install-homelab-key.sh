@@ -38,7 +38,7 @@ if grep -qF -- "$KEY_CONTENT" "$AUTH_KEYS_FILE"; then
     echo "Key already exists in $AUTH_KEYS_FILE. No changes needed."
 else
     echo "Key not found. Appending to $AUTH_KEYS_FILE..."
-    echo "$KEY_CONTENT" >>"$AUTH_KEYS_FILE"
+    echo "$KEY_CONTENT" >> "$AUTH_KEYS_FILE"
     echo "Public key successfully appended."
 fi
 
