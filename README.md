@@ -53,7 +53,7 @@ Setting up a new machine involves cloning the repository, creating a local secre
    git clone https://github.com/ccrsxx/dotfiles.git ~/dotfiles
 
    # Navigate into the directory
-   cd $HOME\dotfiles
+   cd ~/dotfiles
 
    # Create and populate your secrets file as described above
    # copy .env.example .env.local
