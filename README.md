@@ -31,7 +31,7 @@ Setting up a new machine involves cloning the repository, creating a local secre
 
 1. Run the Installation Script
 
-   ### On macOS
+   On macOS:
 
    ```bash
    # Clone the repository
@@ -48,7 +48,7 @@ Setting up a new machine involves cloning the repository, creating a local secre
    ./scripts/install-macos.sh
    ```
 
-   ### On Windows
+   On Windows:
 
    ```powershell
    # Clone the repository
