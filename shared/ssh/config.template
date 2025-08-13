@@ -1,25 +1,25 @@
 # Main VPS
 Host           main
 HostName       {{VPS_MAIN_HOSTNAME}}
-IdentityFile   ~/.ssh/oracle-vps.key
+IdentityFile   ~/.ssh/oracle-general.key
 User           ubuntu
 
 # DNS VPS
 Host           dns
 HostName       {{VPS_DNS_HOSTNAME}}
-IdentityFile   ~/.ssh/oracle-vps.key
+IdentityFile   ~/.ssh/oracle-general.key
 User           ubuntu
 
 # Proxy VPS
 Host           proxy
 HostName       {{VPS_PROXY_HOSTNAME}}
-IdentityFile   ~/.ssh/oracle-vps.key
+IdentityFile   ~/.ssh/oracle-general.key
 User           ubuntu
 
 # Router
 Host           router
-HostName       {{HOMELAB_ROUTER_HOSTNAME}}
-IdentityFile   ~/.ssh/homelab-router.key
+HostName       {{NETWORK_ROUTER_HOSTNAME}}
+IdentityFile   ~/.ssh/network-general.key
 User           ccrsxx
 
 # Homelab
