@@ -116,7 +116,6 @@ export PATH=/opt/homebrew/opt/libpq/bin:$PATH
 export PATH=~/.console-ninja/.bin:$PATH
 export PATH="$HOME/.volta/bin:$PATH"
 
-
 # Export Envs
 export PGHOST=192.168.1.10
 export PGUSER=postgres
