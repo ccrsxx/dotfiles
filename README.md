@@ -1,82 +1,71 @@
-# My Dotfiles
+# Dotfiles
 
-These are my personal configuration files for macOS and Windows. This repository automates the setup of a new machine, ensuring a consistent development environment everywhere I work.
+This repository contains my personal configuration files for macOS and Windows. It automates the setup of a new machine, ensuring a consistent development environment across platforms.
 
 ## Features
 
-- **Cross-Platform:** Manages configurations for both macOS and Windows.
-- **Automated Setup:** Uses simple installation scripts to sync configs and install software.
-- **Package Management:** Installs applications and tools via [Homebrew](https://brew.sh/) on macOS and [Scoop](https://scoop.sh/) on Windows.
-- **Personalized Git:** Includes a global `.gitconfig` with aliases, a default branch name, and automated commit signing.
-- **Secure SSH Config:** Uses a template system with a private `.env.local` file to manage sensitive host information securely.
-- **Custom Terminal:** Includes settings and themes for Windows Terminal and [Oh My Posh](https://ohmyposh.dev/).
+- **Cross-Platform:** Configurations for both macOS and Windows.
+- **Automated Setup:** Scripts to sync configurations and install software.
+- **Package Management:** Uses [Homebrew](https://brew.sh/) for macOS and [Scoop](https://scoop.sh/) for Windows.
+- **Git Configuration:** Includes a global `.gitconfig` with aliases, default branch naming, and commit signing.
+- **SSH Key Management:** Automates public key setup and provides templates for secure SSH configurations.
+- **Custom Terminal Setup:** Includes themes and settings for Windows Terminal and [Oh My Posh](https://ohmyposh.dev/).
 
 ## Getting Started
 
-Setting up a new machine involves cloning the repository, creating a local secrets file, and running the appropriate installation script:
+### 1. Clone the Repository
 
-1. Handle Your Secrets
+Clone the repository to your local machine:
 
-   This repository uses a `.env.local` file to manage sensitive data like IP addresses and hostnames for the SSH configuration. This file is intentionally ignored by Git and **must never be committed**.
+```bash
+git clone https://github.com/ccrsxx/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+```
 
-   First, copy the example file to create your local version:
+### 2. Handle Secrets
 
-   ```bash
-   cp .env.example .env.local
-   ```
+This repository uses a `.env.local` file to manage sensitive data like IP addresses and hostnames for SSH configurations. This file is ignored by Git and must be created manually:
 
-   Next, open `.env.local` with a text editor and replace the placeholder values with your actual secret information.
+```bash
+cp .env.example .env.local
+```
 
-1. Run the Installation Script
+Edit `.env.local` with your actual secret information:
 
-   On macOS:
+```bash
+vim .env.local
+```
 
-   ```bash
-   # Clone the repository
-   git clone https://github.com/ccrsxx/dotfiles.git ~/dotfiles
+### 3. Run the Installation Script
 
-   # Navigate into the directory
-   cd ~/dotfiles
+macOS
 
-   # Create and populate your secrets file as described above
-   # cp .env.example .env.local
-   # vim .env.local
+```bash
+# Run the macOS installation script
+./scripts/install-macos.sh
+```
 
-   # Run the installation script
-   ./scripts/install-macos.sh
-   ```
+Windows
 
-   On Windows:
+```powershell
+# Allow the script to run for the current session
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
-   ```powershell
-   # Clone the repository
-   git clone https://github.com/ccrsxx/dotfiles.git ~/dotfiles
+# Run the Windows installation script
+.\scripts\install-windows.ps1
+```
 
-   # Navigate into the directory
-   cd ~/dotfiles
+### 4. Post-Installation Steps
 
-   # Create and populate your secrets file as described above
-   # copy .env.example .env.local
-   # vim .env.local
+After running the scripts, manually complete the following:
 
-   # Allow the script to run for the current session
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+1. **Transfer Private Keys:** Securely copy your private SSH key files (e.g., `homelab_key`, `github_key`) to the `~/.ssh` directory.
+2. **Load Keys into Agent:** Run `ssh-add ~/.ssh/your_private_key` to load your keys into the SSH agent.
 
-   # Run the installation script
-   .\scripts\install-windows.ps1
-   ```
+## Repository Structure
 
-1. Post-Installation
+The repository is organized as follows:
 
-   The scripts automate configuration, but for security, you must manually:
-
-   1. **Transfer Your Private Keys:** Securely copy your private SSH key files (e.g., `homelab_key`, `github_key`) to the `~/.ssh` directory on your new machine.
-   2. **Load Keys into Agent:** Open a new terminal and run `ssh-add ~/.ssh/your_private_key` to load your keys into the SSH agent.
-
-## Directory Structure
-
-The directory structure of this repository is organized to separate configurations by operating system and purpose:
-
-- **`os/`**: Contains all OS-specific configurations, separated by platform.
-- **`shared/`**: Contains configurations that are shared across all operating systems, like `.gitconfig` and SSH templates.
-- **`scripts/`**: Holds all automation and setup scripts.
+- **`os/`**: Contains OS-specific configurations (e.g., macOS, Windows).
+- **`shared/`**: Contains shared configurations (e.g., `.gitconfig`, SSH templates).
+- **`scripts/`**: Includes automation scripts for setup and installation.
