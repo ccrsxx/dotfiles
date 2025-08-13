@@ -9,11 +9,6 @@ name = Ami
 signingkey = 0E0EE861072ECB2C
 [commit]
 gpgsign = true
-[filter "lfs"]
-clean = git-lfs clean -- %f
-smudge = git-lfs smudge -- %f
-process = git-lfs filter-process
-required = true
 [alias]
 ac = !git add -A && git commit -m
 acp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
