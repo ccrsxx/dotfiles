@@ -1,8 +1,6 @@
 [core]
-excludesfile = ~/.gitignore_global
-autocrlf = input
-longpaths = true
-safecrlf = false
+eol = lf
+autocrlf = false
 [user]
 email = ami@ccrsxx.com
 name = Ami
@@ -17,7 +15,5 @@ racpf = "!f() { git reset head~ && git add -A && git commit -m \"$@\" && git pus
 acpf = "!f() { git add -A && git commit -m \"$@\" && git push -f; }; f"
 [init]
 defaultBranch = main
-[color]
-ui = auto
 [push]
-default = current
+autoSetupRemote = true
