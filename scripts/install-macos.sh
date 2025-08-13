@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# --- Main Setup Logic ---
-
 # Assume the script is in a subdirectory of the main dotfiles repo.
 # This finds the root directory of the repository.
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -19,7 +17,7 @@ ZSHRC_SOURCE="$DOTFILES_DIR/os/macos/.zshrc" # Path to your replacement zsh sett
 
 # Directly replace the ~/.zshrc file with the one from the repo.
 echo "Replacing $ZSHRC_FILE with the repository version..."
-# cp -f "$ZSHRC_SOURCE" "$ZSHRC_FILE"
+cp -f "$ZSHRC_SOURCE" "$ZSHRC_FILE"
 
 # --- Homebrew Package Management ---
 echo "Setting up Homebrew and packages..."
@@ -36,11 +34,9 @@ fi
 brew update
 
 # Install all packages listed in the Brewfile.
-# 'brew bundle' will install, upgrade, and clean up packages automatically.
 BREWFILE="$DOTFILES_DIR/os/macos/Brewfile"
 
 echo "Installing packages from Brewfile..."
-
 brew bundle install --no-upgrade --file="$BREWFILE"
 
 # --- SSH Setup ---
