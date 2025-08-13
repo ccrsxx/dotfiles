@@ -17,3 +17,7 @@ acpf = "!f() { git add -A && git commit -m \"$@\" && git push -f; }; f"
 defaultBranch = main
 [push]
 autoSetupRemote = true
+[pull]
+rebase = true
+[rebase]
+autostash = true
