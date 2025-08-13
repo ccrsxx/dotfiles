@@ -29,7 +29,7 @@ chmod 700 "$SSH_DIR"
 KEY_CONTENT=$(curl -fsSL "$KEY_URL")
 
 # Check if the key was fetched successfully
-if [ -z "$KEY_CONTENT" ] || [[ "$KEY_CONTENT" == "404: Not Found" ]]; then
+if [[ -z "$KEY_CONTENT" || "$KEY_CONTENT" == "404: Not Found" ]]; then
     echo "Error: Failed to fetch the public key from $KEY_URL."
     echo "Please check that the file '${KEY_FILENAME}' exists in the repository."
     exit 1
