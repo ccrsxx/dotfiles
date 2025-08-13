@@ -8,7 +8,7 @@ echo "Dotfiles repository located at: $DOTFILES_DIR"
 # --- Git Configuration ---
 echo "Setting up Git configuration..."
 # Force-copy the .gitconfig file, overwriting any existing one.
-# cp -f "$DOTFILES_DIR/shared/.gitconfig" "$HOME/.gitconfig"
+cp -f "$DOTFILES_DIR/shared/.gitconfig" "$HOME/.gitconfig"
 
 # --- Zsh (Shell) Configuration ---
 echo "Setting up Zsh configuration..."
