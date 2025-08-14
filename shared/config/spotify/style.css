@@ -1,0 +1,43 @@
+.Root__nav-bar::before {
+  content: '';
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: -58px;
+  left: 16px;
+  image-rendering: pixelated;
+  background-size: 48px 48px;
+  background-image: url('https://media.tenor.com/ClISSvCFhTAAAAAi/rem-re-zero.gif');
+}
+
+.main-yourLibraryX-libraryItemContainer {
+  margin-left: 4px;
+}
+
+.main-nowPlayingBar-nowPlayingBar {
+  padding-left: 16px;
+}
+
+.player-controls .playback-progressbar::before {
+  content: '';
+  width: 128px;
+  height: 128px;
+  bottom: 32px;
+  left: 32px;
+  position: absolute;
+  image-rendering: pixelated;
+  background-size: 128px 128px;
+  background-image: url('https://media.tenor.com/6Qs9C40A5BkAAAAj/%E3%83%AA%E3%82%BC%E3%83%AD-thank-you.gif');
+}
+
+.player-controls .playback-progressbar::after {
+  content: '';
+  width: 128px;
+  height: 128px;
+  bottom: 32px;
+  right: 32px;
+  position: absolute;
+  image-rendering: pixelated;
+  background-size: 128px 128px;
+  background-image: url('https://media.tenor.com/5CllltgBZUsAAAAi/ram-and-rem-dance.gif');
+}
