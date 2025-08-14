@@ -1,0 +1,35 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "This repository contains my personal configuration files for macOS and Windows. It automates the setup of a new machine, ensuring a consistent development environment across platforms.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccrsxx/dotfiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ccrsxx/dotfiles/issues"
+  },
+  "homepage": "https://github.com/ccrsxx/dotfiles#readme",
+  "volta": {
+    "node": "22.18.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
+    "prettier": "3.6.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
