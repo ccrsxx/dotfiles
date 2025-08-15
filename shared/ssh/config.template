@@ -22,6 +22,12 @@ HostName       {{NETWORK_ROUTER_HOSTNAME}}
 IdentityFile   ~/.ssh/network-general.key
 User           ccrsxx
 
+# Switch
+Host           switch
+HostName       {{NETWORK_SWITCH_HOSTNAME}}
+IdentityFile   ~/.ssh/network-general.key
+User           ccrsxx
+
 # Homelab
 Host           homelab
 HostName       {{HOMELAB_MAIN_HOSTNAME}}
