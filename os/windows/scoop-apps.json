@@ -44,13 +44,6 @@
     },
     {
       "Info": "",
-      "Version": "3.14",
-      "Source": "main",
-      "Name": "dark",
-      "Updated": "2024-03-29T14:09:31.3798989+07:00"
-    },
-    {
-      "Info": "",
       "Version": "6.0",
       "Source": "main",
       "Name": "ffmpeg",
