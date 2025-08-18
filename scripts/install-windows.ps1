@@ -39,7 +39,7 @@ $ScoopApps = "$DotfilesDir\os\windows\scoop-apps.json"
 
 scoop update
 
-# scoop import $ScoopApps
+scoop import $ScoopApps
 
 # --- Oh My Posh Setup ---
 Write-Host "Setting up Oh My Posh..."
