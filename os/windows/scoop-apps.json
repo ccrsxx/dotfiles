@@ -1,16 +1,312 @@
 {
+  "apps": [
+    {
+      "Updated": "2025-08-18T15:42:16.6740175+07:00",
+      "Info": "",
+      "Name": "7zip",
+      "Version": "25.01",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:34:47.4539818+07:00",
+      "Info": "",
+      "Name": "adb",
+      "Version": "36.0.0",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T15:56:55.9767176+07:00",
+      "Info": "",
+      "Name": "bitwarden",
+      "Version": "2025.7.0",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T16:01:05.2771721+07:00",
+      "Info": "",
+      "Name": "dark",
+      "Version": "3.14.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T16:24:13.2393837+07:00",
+      "Info": "",
+      "Name": "discord",
+      "Version": "1.0.9198-22",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T19:25:54.5944311+07:00",
+      "Info": "",
+      "Name": "eartrumpet",
+      "Version": "2.3.0",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T20:37:30.2533645+07:00",
+      "Info": "",
+      "Name": "ffmpeg",
+      "Version": "7.1.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T18:17:21.2044607+07:00",
+      "Info": "",
+      "Name": "FiraCode",
+      "Version": "6.2",
+      "Source": "nerd-fonts"
+    },
+    {
+      "Updated": "2025-08-18T18:43:26.6707231+07:00",
+      "Info": "",
+      "Name": "FiraCode-NF",
+      "Version": "3.4.0",
+      "Source": "nerd-fonts"
+    },
+    {
+      "Updated": "2025-08-18T20:29:45.5696263+07:00",
+      "Info": "",
+      "Name": "fzf",
+      "Version": "0.65.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T16:52:10.3825748+07:00",
+      "Info": "",
+      "Name": "gh",
+      "Version": "2.76.2",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T15:42:37.6992281+07:00",
+      "Info": "",
+      "Name": "git",
+      "Version": "2.50.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:37:31.4600952+07:00",
+      "Info": "",
+      "Name": "hyperfine",
+      "Version": "1.19.0",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-20T18:48:45.5066278+07:00",
+      "Info": "",
+      "Name": "icaros-np",
+      "Version": "3.3.4_b1",
+      "Source": "nonportable"
+    },
+    {
+      "Updated": "2025-08-19T10:52:19.5832293+07:00",
+      "Info": "",
+      "Name": "iperf3",
+      "Version": "3.19.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:37:31.9723449+07:00",
+      "Info": "",
+      "Name": "jq",
+      "Version": "1.8.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T18:10:20.6854911+07:00",
+      "Info": "",
+      "Name": "mpv",
+      "Version": "0.39.0",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-20T18:07:30.0400517+07:00",
+      "Info": "",
+      "Name": "nextcloud",
+      "Version": "3.17.1",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T20:40:45.5798309+07:00",
+      "Info": "",
+      "Name": "nmap",
+      "Version": "7.97",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:41:29.8702685+07:00",
+      "Info": "",
+      "Name": "obsidian",
+      "Version": "1.8.10",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T18:09:09.1064424+07:00",
+      "Info": "",
+      "Name": "oh-my-posh",
+      "Version": "26.19.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:41:31.4596543+07:00",
+      "Info": "",
+      "Name": "onefetch",
+      "Version": "2.25.0",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T19:31:24.9566023+07:00",
+      "Info": "",
+      "Name": "openrgb",
+      "Version": "0.9",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T18:16:02.0605637+07:00",
+      "Info": "",
+      "Name": "posh-git",
+      "Version": "1.1.0",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T16:02:37.4215842+07:00",
+      "Info": "",
+      "Name": "powertoys",
+      "Version": "0.93.0",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T20:29:31.78155+07:00",
+      "Info": "",
+      "Name": "PSFzf",
+      "Version": "2.6.14",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T15:39:23.2189119+07:00",
+      "Info": "",
+      "Name": "pwsh",
+      "Version": "7.5.2",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:41:52.3900088+07:00",
+      "Info": "",
+      "Name": "python",
+      "Version": "3.13.7",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:41:53.8644623+07:00",
+      "Info": "",
+      "Name": "scrcpy",
+      "Version": "3.3.1",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T20:41:54.1450912+07:00",
+      "Info": "",
+      "Name": "speedtest-cli",
+      "Version": "1.2.0",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T16:10:34.1942546+07:00",
+      "Info": "",
+      "Name": "spotify",
+      "Version": "1.2.70.409.gd4fa4141",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T16:55:48.2109497+07:00",
+      "Info": "",
+      "Name": "steam",
+      "Version": "nightly-20250818",
+      "Source": "games"
+    },
+    {
+      "Updated": "2025-08-18T18:14:51.4552561+07:00",
+      "Info": "",
+      "Name": "terminal-icons",
+      "Version": "0.11.0",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-19T16:14:08.6647901+07:00",
+      "Info": "Install failed",
+      "Name": "thunderbird",
+      "Version": null,
+      "Source": null
+    },
+    {
+      "Updated": "2025-08-18T21:58:43.3216032+07:00",
+      "Info": "",
+      "Name": "twinkle-tray",
+      "Version": "1.16.7",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T20:41:58.0570249+07:00",
+      "Info": "",
+      "Name": "uv",
+      "Version": "0.8.11",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T17:33:15.7970722+07:00",
+      "Info": "",
+      "Name": "vim",
+      "Version": "9.1.0",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T18:12:13.3532676+07:00",
+      "Info": "",
+      "Name": "volta",
+      "Version": "2.0.2",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T16:45:17.9608948+07:00",
+      "Info": "",
+      "Name": "vscode",
+      "Version": "1.103.1",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T20:42:00.3859468+07:00",
+      "Info": "",
+      "Name": "yt-dlp",
+      "Version": "2025.08.11",
+      "Source": "main"
+    },
+    {
+      "Updated": "2025-08-18T21:16:43.9933419+07:00",
+      "Info": "",
+      "Name": "z",
+      "Version": "1.1.14",
+      "Source": "extras"
+    },
+    {
+      "Updated": "2025-08-18T15:49:13.19058+07:00",
+      "Info": "",
+      "Name": "zen-browser",
+      "Version": "1.14.11b",
+      "Source": "extras"
+    }
+  ],
   "buckets": [
     {
       "Name": "main",
       "Source": "https://github.com/ScoopInstaller/Main",
-      "Updated": "2025-08-19T15:30:41+07:00",
-      "Manifests": 1401
+      "Updated": "2025-08-20T19:31:55+07:00",
+      "Manifests": 1402
     },
     {
       "Name": "extras",
       "Source": "https://github.com/ScoopInstaller/Extras",
-      "Updated": "2025-08-19T15:30:02+07:00",
-      "Manifests": 2178
+      "Updated": "2025-08-20T19:31:03+07:00",
+      "Manifests": 2180
     },
     {
       "Name": "nerd-fonts",
@@ -19,292 +315,16 @@
       "Manifests": 367
     },
     {
+      "Name": "nonportable",
+      "Source": "https://github.com/ScoopInstaller/Nonportable",
+      "Updated": "2025-08-19T23:43:52+07:00",
+      "Manifests": 128
+    },
+    {
       "Name": "games",
       "Source": "https://github.com/Calinou/scoop-games",
-      "Updated": "2025-08-19T15:29:38+07:00",
+      "Updated": "2025-08-20T19:31:16+07:00",
       "Manifests": 353
-    }
-  ],
-  "apps": [
-    {
-      "Version": "25.01",
-      "Updated": "2025-08-18T15:42:16.6740175+07:00",
-      "Name": "7zip",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "36.0.0",
-      "Updated": "2025-08-18T20:34:47.4539818+07:00",
-      "Name": "adb",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "2025.7.0",
-      "Updated": "2025-08-18T15:56:55.9767176+07:00",
-      "Name": "bitwarden",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "3.14.1",
-      "Updated": "2025-08-18T16:01:05.2771721+07:00",
-      "Name": "dark",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.0.9198-22",
-      "Updated": "2025-08-18T16:24:13.2393837+07:00",
-      "Name": "discord",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "2.3.0",
-      "Updated": "2025-08-18T19:25:54.5944311+07:00",
-      "Name": "eartrumpet",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "7.1.1",
-      "Updated": "2025-08-18T20:37:30.2533645+07:00",
-      "Name": "ffmpeg",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "6.2",
-      "Updated": "2025-08-18T18:17:21.2044607+07:00",
-      "Name": "FiraCode",
-      "Info": "",
-      "Source": "nerd-fonts"
-    },
-    {
-      "Version": "3.4.0",
-      "Updated": "2025-08-18T18:43:26.6707231+07:00",
-      "Name": "FiraCode-NF",
-      "Info": "",
-      "Source": "nerd-fonts"
-    },
-    {
-      "Version": "0.65.1",
-      "Updated": "2025-08-18T20:29:45.5696263+07:00",
-      "Name": "fzf",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "2.76.2",
-      "Updated": "2025-08-18T16:52:10.3825748+07:00",
-      "Name": "gh",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "2.50.1",
-      "Updated": "2025-08-18T15:42:37.6992281+07:00",
-      "Name": "git",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.19.0",
-      "Updated": "2025-08-18T20:37:31.4600952+07:00",
-      "Name": "hyperfine",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "3.19.1",
-      "Updated": "2025-08-19T10:52:19.5832293+07:00",
-      "Name": "iperf3",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.8.1",
-      "Updated": "2025-08-18T20:37:31.9723449+07:00",
-      "Name": "jq",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "0.39.0",
-      "Updated": "2025-08-18T18:10:20.6854911+07:00",
-      "Name": "mpv",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "7.97",
-      "Updated": "2025-08-18T20:40:45.5798309+07:00",
-      "Name": "nmap",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.8.10",
-      "Updated": "2025-08-18T20:41:29.8702685+07:00",
-      "Name": "obsidian",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "26.19.1",
-      "Updated": "2025-08-18T18:09:09.1064424+07:00",
-      "Name": "oh-my-posh",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "2.25.0",
-      "Updated": "2025-08-18T20:41:31.4596543+07:00",
-      "Name": "onefetch",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "0.9",
-      "Updated": "2025-08-18T19:31:24.9566023+07:00",
-      "Name": "openrgb",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "1.1.0",
-      "Updated": "2025-08-18T18:16:02.0605637+07:00",
-      "Name": "posh-git",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "0.93.0",
-      "Updated": "2025-08-18T16:02:37.4215842+07:00",
-      "Name": "powertoys",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "2.6.14",
-      "Updated": "2025-08-18T20:29:31.78155+07:00",
-      "Name": "PSFzf",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "7.5.2",
-      "Updated": "2025-08-18T15:39:23.2189119+07:00",
-      "Name": "pwsh",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "3.13.7",
-      "Updated": "2025-08-18T20:41:52.3900088+07:00",
-      "Name": "python",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "3.3.1",
-      "Updated": "2025-08-18T20:41:53.8644623+07:00",
-      "Name": "scrcpy",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.2.0",
-      "Updated": "2025-08-18T20:41:54.1450912+07:00",
-      "Name": "speedtest-cli",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.2.70.409.gd4fa4141",
-      "Updated": "2025-08-18T16:10:34.1942546+07:00",
-      "Name": "spotify",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "nightly-20250818",
-      "Updated": "2025-08-18T16:55:48.2109497+07:00",
-      "Name": "steam",
-      "Info": "",
-      "Source": "games"
-    },
-    {
-      "Version": "0.11.0",
-      "Updated": "2025-08-18T18:14:51.4552561+07:00",
-      "Name": "terminal-icons",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": null,
-      "Updated": "2025-08-19T16:14:08.6647901+07:00",
-      "Name": "thunderbird",
-      "Info": "Install failed",
-      "Source": null
-    },
-    {
-      "Version": "1.16.7",
-      "Updated": "2025-08-18T21:58:43.3216032+07:00",
-      "Name": "twinkle-tray",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "0.8.11",
-      "Updated": "2025-08-18T20:41:58.0570249+07:00",
-      "Name": "uv",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "9.1.0",
-      "Updated": "2025-08-18T17:33:15.7970722+07:00",
-      "Name": "vim",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "2.0.2",
-      "Updated": "2025-08-18T18:12:13.3532676+07:00",
-      "Name": "volta",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.103.1",
-      "Updated": "2025-08-18T16:45:17.9608948+07:00",
-      "Name": "vscode",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "2025.08.11",
-      "Updated": "2025-08-18T20:42:00.3859468+07:00",
-      "Name": "yt-dlp",
-      "Info": "",
-      "Source": "main"
-    },
-    {
-      "Version": "1.1.14",
-      "Updated": "2025-08-18T21:16:43.9933419+07:00",
-      "Name": "z",
-      "Info": "",
-      "Source": "extras"
-    },
-    {
-      "Version": "1.14.11b",
-      "Updated": "2025-08-18T15:49:13.19058+07:00",
-      "Name": "zen-browser",
-      "Info": "",
-      "Source": "extras"
     }
   ]
 }
