@@ -18,6 +18,4 @@ defaultBranch = main
 [push]
 autoSetupRemote = true
 [pull]
-rebase = true
-[rebase]
-autostash = true
+rebase = false
