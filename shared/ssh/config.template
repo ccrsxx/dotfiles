@@ -34,6 +34,12 @@ HostName       {{HOMELAB_MAIN_HOSTNAME}}
 IdentityFile   ~/.ssh/homelab-general.key
 User           root
 
+# Old Homelab
+Host           old-homelab
+HostName       {{HOMELAB_OLD_MAIN_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab-general.key
+User           root
+
 # Docker LXC
 Host           docker
 HostName       {{HOMELAB_DOCKER_HOSTNAME}}
