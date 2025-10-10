@@ -34,9 +34,15 @@ HostName       {{NETWORK_SWITCH_CRS328_HOSTNAME}}
 IdentityFile   ~/.ssh/network-general.key
 User           ccrsxx
 
-# Homelab
-Host           homelab
-HostName       {{HOMELAB_MAIN_HOSTNAME}}
+# Homelab PVE
+Host           proxmox
+HostName       {{HOMELAB_PROXMOX_HOSTNAME}}
+IdentityFile   ~/.ssh/homelab-general.key
+User           ccrsxx
+
+# Homelab Ubuntu
+Host           ubuntu
+HostName       {{HOMELAB_UBUNTU_HOSTNAME}}
 IdentityFile   ~/.ssh/homelab-general.key
 User           ccrsxx
 
