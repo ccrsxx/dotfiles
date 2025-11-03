@@ -31,6 +31,10 @@ function reload {
     [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
 }
 
+function uuidgen() {
+  [guid]::NewGuid().ToString()
+}
+
 function glo() {
   git log --oneline
 }
