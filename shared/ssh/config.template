@@ -16,20 +16,20 @@ HostName       {{VPS_PROXY_HOSTNAME}}
 IdentityFile   ~/.ssh/oracle-general.key
 User           ubuntu
 
-# Router
+# Router AX3
 Host           router
 HostName       {{NETWORK_ROUTER_HOSTNAME}}
 IdentityFile   ~/.ssh/network-general.key
 User           ccrsxx
 
 # Switch CRS310
-Host           switch-crs310
+Host           crs310
 HostName       {{NETWORK_SWITCH_CRS310_HOSTNAME}}
 IdentityFile   ~/.ssh/network-general.key
 User           ccrsxx
 
 # Switch CRS328
-Host           switch-crs328
+Host           crs328
 HostName       {{NETWORK_SWITCH_CRS328_HOSTNAME}}
 IdentityFile   ~/.ssh/network-general.key
 User           ccrsxx
