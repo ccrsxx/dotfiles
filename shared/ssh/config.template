@@ -16,6 +16,12 @@ HostName       {{VPS_PROXY_HOSTNAME}}
 IdentityFile   ~/.ssh/oracle-general.key
 User           ubuntu
 
+# Proxy VPS
+Host           monitor
+HostName       {{VPS_monitor_HOSTNAME}}
+IdentityFile   ~/.ssh/gcp-general.key
+User           debian
+
 # Router AX3
 Host           router
 HostName       {{NETWORK_ROUTER_HOSTNAME}}
